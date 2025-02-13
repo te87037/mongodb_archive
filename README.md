@@ -23,3 +23,6 @@ mongo_pt_delete2.py [-h] --mongo_uri MONGO_URI --db_name DB_NAME [--collection C
 | `--delete_rate DELETE_RATE` | Limit deletion rate (records per second, `0` = unlimited) |
 | `--filter FILTER` | Custom MongoDB filter condition in JSON format |
 | `--log_file LOG_FILE` | Log file path (if not specified, logs will be output to `STDOUT`) |
+
+
+Hope this tool can help every mongodb user.
