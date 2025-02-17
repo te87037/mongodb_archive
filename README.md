@@ -20,7 +20,6 @@ mongo_pt_delete2.py [-h] --mongo_uri MONGO_URI --db_name DB_NAME [--collection C
 | `--progress_interval PROGRESS_INTERVAL` | Show progress after deleting this many records (default: `20000`) |
 | `--order_by_field ORDER_BY_FIELD` | Field used for sorting deletions (default: `timestamp`) |
 | `--dry_run` | Run in dry mode, showing deletion count without actually deleting records |
-| `--delete_rate DELETE_RATE` | Limit deletion rate (records per second, `0` = unlimited) |
 | `--filter FILTER` | Custom MongoDB filter condition in JSON format |
 | `--log_file LOG_FILE` | Log file path (if not specified, logs will be output to `STDOUT`) |
 
